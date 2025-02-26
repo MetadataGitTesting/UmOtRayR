@@ -1,0 +1,84 @@
+name: keesha.legros
+description: Open-architected
+version: 0.0.1
+author: mst1txmi.9lh8uu5i@iz8qf1dg.com
+language: sql
+buildSystem: ''
+buildSystemDetails: null
+pipelines: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: ''
+  gemLibsVersion: ''
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2025-02-26 20:34:46'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels:
+  .prophecy/metadata/sqlmodels/model:
+    name: model
+    schema:
+      model: model
+    description: null
+    author: mst1txmi.9lh8uu5i@iz8qf1dg.com
+    files: []
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-02-26 20:34:47'
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros: {}
+sqlSeeds:
+  .prophecy/metadata/sqlseeds/seed:
+    name: seed
+    schema:
+      seed:
+        seedInner: value
+    description: null
+    author: mst1txmi.9lh8uu5i@iz8qf1dg.com
+    files: []
+    createdAt: '2025-02-26 20:34:47'
+sqlSources:
+  .prophecy/metadata/sqlsources/source:
+    name: source
+    description: null
+    author: mst1txmi.9lh8uu5i@iz8qf1dg.com
+    files: []
+    createdAt: '2025-02-26 20:34:47'
+    tables:
+    - name: table1
+      schema:
+        table1: value
+      description: null
+      author: mst1txmi.9lh8uu5i@iz8qf1dg.com
+      createdAt: '2025-02-26 20:34:47'
+    - name: table2
+      schema:
+        table2: value
+      description: null
+      author: mst1txmi.9lh8uu5i@iz8qf1dg.com
+      createdAt: '2025-02-26 20:34:47'
+sqlUnreferencedSources: {}
+sqlPipeline:
+  name: sqlPipeline
+  description: null
+  author: mst1txmi.9lh8uu5i@iz8qf1dg.com
+  createdAt: '2025-02-26 20:34:46'
+dependencies: []
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
